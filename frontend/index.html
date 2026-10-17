@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIL-SIM</title>
+  <meta name="description" content="Pick a controller and an autocross map, then watch the bicycle model drive it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="brand">
+      <p class="eyebrow">EcoCAR autocross</p>
+      <h1>MIL-SIM</h1>
+    </div>
+    <p class="head-note" id="mark">Bicycle model</p>
+  </header>
+
+  <div class="layout">
+    <aside>
+      <section>
+        <h2 id="ctrl-label">Controller</h2>
+        <div id="controllers" class="choices" role="radiogroup" aria-labelledby="ctrl-label"></div>
+      </section>
+      <section>
+        <h2 id="map-label">Map</h2>
+        <div id="maps" role="group" aria-labelledby="map-label"></div>
+      </section>
+      <section class="result" id="result" aria-live="polite">
+        <h2>Result</h2>
+        <p class="result-empty" id="result-empty">Choose a controller and a map, then Drive.</p>
+      </section>
+      <button class="drive-btn" id="drive-btn" type="button">Drive</button>
+      <button class="again" id="again-btn" type="button" hidden>Simulate again</button>
+      <p class="hint">The lap runs on this computer. A pair you have already driven replays immediately.</p>
+    </aside>
+
+    <main class="stage">
+      <div class="hero">
+        <canvas id="track" aria-label="Top-down autocross course."></canvas>
+        <p class="banner" id="banner" hidden>Simulating…</p>
+      </div>
+      <footer class="hud">
+        <div class="speed-block">
+          <p class="speed"><span id="speed">0</span><span class="unit">km/h</span></p>
+          <p class="along" id="along">0 m</p>
+        </div>
+        <div class="progress-block">
+          <div class="bar" id="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Distance along the course">
+            <span class="bar-fill" id="bar-fill"></span>
+          </div>
+          <div class="exp-scale">
+            <span id="clock">0:00</span>
+            <span id="finish-label">finish</span>
+          </div>
+        </div>
+        <div class="tools">
+          <div class="pills" role="group" aria-label="Camera">
+            <button class="pill" type="button" data-view="chase" aria-pressed="false">Chase</button>
+            <button class="pill" type="button" data-view="map" aria-pressed="true">Course</button>
+            <button class="pill" type="button" data-view="trail" aria-pressed="false">Trail</button>
+          </div>
+          <div class="pills" role="group" aria-label="Playback speed">
+            <button class="pill" type="button" data-rate="1" aria-pressed="true">1×</button>
+            <button class="pill" type="button" data-rate="2" aria-pressed="false">2×</button>
+            <button class="pill" type="button" data-rate="4" aria-pressed="false">4×</button>
+          </div>
+          <button class="pill" id="grid-btn" type="button" aria-pressed="true">Grid</button>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <p class="sr" id="live" aria-live="polite"></p>
+  <script src="app.js"></script>
+</body>
+</html>

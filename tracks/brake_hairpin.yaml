@@ -1,0 +1,13 @@
+# Long straight into a tight hairpin, then a short exit. Built so a speed policy has to
+# accelerate hard and still stop for the corner. Metres, degrees, + = left.
+name: brake_hairpin
+closed: false
+width: 6.0
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+  - {type: straight, length: 180}
+  - {type: arc, radius: 12, angle: 160, width: 7.0}
+  - {type: straight, length: 80}

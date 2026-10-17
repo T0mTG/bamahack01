@@ -1,0 +1,32 @@
+name: train_obstacles_102
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: straight, length: 39.2}
+- {type: arc, radius: 38.7, angle: 62.5}
+- {type: slalom, cycles: 3, wavelength: 29.9, swing: 2.2, first: left}
+- {type: straight, length: 37.7}
+- {type: arc, radius: 21.2, angle: -119.7}
+- {type: slalom, cycles: 1, wavelength: 30.7, swing: 3.2, first: right}
+- {type: slalom, cycles: 1, wavelength: 27.2, swing: 3.1, first: right}
+- {type: straight, length: 30.9}
+- {type: straight, length: 15.8}
+- {type: arc, radius: 17.4, angle: -118.6}
+- {type: slalom, cycles: 1, wavelength: 28.4, swing: 2.6, first: right}
+- {type: arc, radius: 30.3, angle: -40.0}
+- {type: arc, radius: 18.9, angle: 70.4}
+- {type: straight, length: 19.8}
+- {type: arc, radius: 38.3, angle: -49.8}
+- {type: arc, radius: 15.3, angle: 108.2}
+- {type: arc, radius: 40.6, angle: 35.5}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 170.2, offset: 1.73, width: 1.44}
+- {s: 179.2, offset: 1.72, width: 1.45}
+- {s: 220.4, offset: -1.8, width: 1.29}
+- {s: 388.9, offset: 1.83, width: 1.23}

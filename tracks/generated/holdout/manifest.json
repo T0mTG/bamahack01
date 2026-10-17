@@ -1,0 +1,57 @@
+[
+  {
+    "name": "holdout_fast_200",
+    "file": "tracks\\generated\\holdout\\holdout_fast_200.yaml",
+    "length_m": 663.1,
+    "closed": false,
+    "cones": 362,
+    "obstacles": 0,
+    "style": "fast",
+    "seed": 200,
+    "split": "holdout"
+  },
+  {
+    "name": "holdout_technical_210",
+    "file": "tracks\\generated\\holdout\\holdout_technical_210.yaml",
+    "length_m": 416.7,
+    "closed": false,
+    "cones": 226,
+    "obstacles": 11,
+    "style": "technical",
+    "seed": 210,
+    "split": "holdout"
+  },
+  {
+    "name": "holdout_braking_220",
+    "file": "tracks\\generated\\holdout\\holdout_braking_220.yaml",
+    "length_m": 334.6,
+    "closed": false,
+    "cones": 164,
+    "obstacles": 0,
+    "style": "braking",
+    "seed": 220,
+    "split": "holdout"
+  },
+  {
+    "name": "holdout_obstacles_230",
+    "file": "tracks\\generated\\holdout\\holdout_obstacles_230.yaml",
+    "length_m": 685.5,
+    "closed": false,
+    "cones": 366,
+    "obstacles": 16,
+    "style": "obstacles",
+    "seed": 230,
+    "split": "holdout"
+  },
+  {
+    "name": "holdout_closed_240",
+    "file": "tracks\\generated\\holdout\\holdout_closed_240.yaml",
+    "length_m": 599.8,
+    "closed": true,
+    "cones": 329,
+    "obstacles": 3,
+    "style": "closed",
+    "seed": 240,
+    "split": "holdout"
+  }
+]

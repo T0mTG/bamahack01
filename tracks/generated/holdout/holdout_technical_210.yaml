@@ -1,0 +1,27 @@
+name: holdout_technical_210
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: straight, length: 70.5}
+- {type: arc, radius: 65.4, angle: 16.9, width: 5.1}
+- {type: arc, radius: 55.4, angle: -16.5, width: 5.1}
+- {type: straight, length: 43.2}
+- {type: arc, radius: 10.4, angle: 134.3, width: 6.5}
+- {type: arc, radius: 27.0, angle: 41.1}
+- {type: arc, radius: 37.4, angle: -48.4}
+- {type: arc, radius: 21.2, angle: -54.1}
+- {type: arc, radius: 10.1, angle: -73.4, width: 6.5}
+- {type: straight, length: 20.0}
+- {type: arc, radius: 13.0, angle: 60.0}
+- {type: arc, radius: 13.0, angle: -120.0}
+- {type: arc, radius: 13.0, angle: 60.0}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 179.5, offset: 2.12, width: 1.21}
+- {s: 251.7, offset: 1.62, width: 1.65}
+- {s: 262.0, offset: -1.67, width: 1.57}

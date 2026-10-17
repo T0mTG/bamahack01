@@ -1,0 +1,14 @@
+name: train_braking_61
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 186.3}
+- {type: arc, radius: 11.2, angle: -176.3, width: 6.5}
+- {type: straight, length: 67.4}
+- {type: arc, radius: 24.0, angle: 89.9}
+- {type: straight, length: 55.0}
+obstacles: []

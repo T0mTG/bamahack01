@@ -1,0 +1,28 @@
+name: train_fast_20
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: slalom, cycles: 2, wavelength: 28.5, swing: 2.2, first: left}
+- {type: straight, length: 16.1}
+- {type: straight, length: 40.0}
+- {type: arc, radius: 40.5, angle: -59.4}
+- {type: arc, radius: 14.0, angle: 62.2}
+- {type: straight, length: 23.9}
+- {type: straight, length: 40.8}
+- {type: straight, length: 43.1}
+- {type: arc, radius: 9.7, angle: 170.3, width: 6.5}
+- {type: straight, length: 24.6}
+- {type: straight, length: 42.5}
+- {type: straight, length: 42.8}
+- {type: slalom, cycles: 1, wavelength: 31.4, swing: 2.9, first: right}
+- {type: straight, length: 29.1}
+- {type: arc, radius: 28.2, angle: -66.3}
+- {type: straight, length: 23.2}
+- {type: arc, radius: 16.3, angle: -103.9}
+- {type: straight, length: 55.0}
+obstacles: []

@@ -1,0 +1,28 @@
+name: train_fast_23
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: arc, radius: 32.8, angle: 73.7}
+- {type: arc, radius: 34.6, angle: 86.5}
+- {type: straight, length: 22.1}
+- {type: arc, radius: 31.1, angle: -54.4}
+- {type: arc, radius: 16.7, angle: -73.8}
+- {type: straight, length: 35.3}
+- {type: arc, radius: 12.8, angle: 61.6}
+- {type: arc, radius: 29.1, angle: 98.4}
+- {type: arc, radius: 40.0, angle: -93.8}
+- {type: arc, radius: 36.9, angle: 61.8}
+- {type: arc, radius: 13.9, angle: 74.8}
+- {type: arc, radius: 27.5, angle: 69.5}
+- {type: arc, radius: 15.7, angle: -83.7}
+- {type: arc, radius: 31.6, angle: 42.7}
+- {type: arc, radius: 16.7, angle: -106.0}
+- {type: arc, radius: 38.1, angle: -63.0}
+- {type: arc, radius: 38.4, angle: 42.1}
+- {type: straight, length: 55.0}
+obstacles: []

@@ -1,0 +1,16 @@
+name: train_accel_82
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 75.6}
+- {type: arc, radius: 17.7, angle: 109.2}
+- {type: straight, length: 86.3}
+- {type: arc, radius: 27.4, angle: -69.0}
+- {type: straight, length: 69.2}
+- {type: arc, radius: 29.5, angle: 54.3}
+- {type: straight, length: 55.0}
+obstacles: []

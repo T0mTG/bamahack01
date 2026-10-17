@@ -1,0 +1,42 @@
+[
+  {
+    "name": "open_fast",
+    "file": "tracks\\generated\\open_fast.yaml",
+    "length_m": 649.4,
+    "closed": false,
+    "cones": 391,
+    "obstacles": 0,
+    "style": "open",
+    "seed": 1
+  },
+  {
+    "name": "open_obstacles",
+    "file": "tracks\\generated\\open_obstacles.yaml",
+    "length_m": 724.8,
+    "closed": false,
+    "cones": 464,
+    "obstacles": 11,
+    "style": "open",
+    "seed": 2
+  },
+  {
+    "name": "open_technical",
+    "file": "tracks\\generated\\open_technical.yaml",
+    "length_m": 543.1,
+    "closed": false,
+    "cones": 316,
+    "obstacles": 8,
+    "style": "open",
+    "seed": 4
+  },
+  {
+    "name": "closed_loop",
+    "file": "tracks\\generated\\closed_loop.yaml",
+    "length_m": 599.9,
+    "closed": true,
+    "cones": 310,
+    "obstacles": 4,
+    "style": "closed",
+    "seed": 3
+  }
+]

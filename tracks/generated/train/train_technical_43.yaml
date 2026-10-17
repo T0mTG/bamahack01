@@ -1,0 +1,27 @@
+name: train_technical_43
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: straight, length: 51.3}
+- {type: arc, radius: 55.5, angle: -18.7, width: 5.1}
+- {type: arc, radius: 69.7, angle: 13.8, width: 5.1}
+- {type: straight, length: 50.0}
+- {type: arc, radius: 10.0, angle: -122.6, width: 6.5}
+- {type: arc, radius: 25.6, angle: -54.1}
+- {type: arc, radius: 36.9, angle: 35.6}
+- {type: arc, radius: 17.7, angle: 48.4}
+- {type: arc, radius: 10.0, angle: 62.7, width: 6.5}
+- {type: straight, length: 20.0}
+- {type: arc, radius: 13.0, angle: -60.0}
+- {type: arc, radius: 13.0, angle: 120.0}
+- {type: arc, radius: 13.0, angle: -60.0}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 72.8, offset: -1.62, width: 1.67}
+- {s: 78.6, offset: 1.7, width: 1.38}
+- {s: 225.9, offset: 1.74, width: 1.41}

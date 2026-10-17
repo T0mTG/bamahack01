@@ -1,0 +1,34 @@
+name: holdout_obstacles_230
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: straight, length: 40.1}
+- {type: arc, radius: 32.4, angle: 51.7}
+- {type: straight, length: 42.9}
+- {type: arc, radius: 14.1, angle: -97.7}
+- {type: straight, length: 19.1}
+- {type: straight, length: 41.5}
+- {type: straight, length: 42.5}
+- {type: straight, length: 13.8}
+- {type: arc, radius: 13.9, angle: 103.1}
+- {type: arc, radius: 13.9, angle: -96.9}
+- {type: slalom, cycles: 2, wavelength: 23.9, swing: 2.6, first: right}
+- {type: arc, radius: 13.5, angle: -86.1}
+- {type: straight, length: 15.9}
+- {type: arc, radius: 26.2, angle: 43.5}
+- {type: slalom, cycles: 2, wavelength: 28.9, swing: 2.7, first: left}
+- {type: slalom, cycles: 1, wavelength: 29.6, swing: 2.9, first: left}
+- {type: arc, radius: 19.3, angle: -107.8}
+- {type: straight, length: 26.9}
+- {type: arc, radius: 33.8, angle: -75.1}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 214.5, offset: 1.48, width: 1.93}
+- {s: 217.8, offset: 1.5, width: 1.9}
+- {s: 293.1, offset: 1.63, width: 1.64}
+- {s: 515.8, offset: -1.57, width: 1.75}

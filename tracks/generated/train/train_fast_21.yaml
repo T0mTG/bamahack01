@@ -1,0 +1,29 @@
+name: train_fast_21
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: arc, radius: 43.7, angle: 66.4}
+- {type: arc, radius: 19.9, angle: -93.7}
+- {type: arc, radius: 14.8, angle: -73.9}
+- {type: straight, length: 14.6}
+- {type: arc, radius: 38.3, angle: 49.4}
+- {type: straight, length: 27.6}
+- {type: arc, radius: 14.6, angle: -91.9}
+- {type: slalom, cycles: 1, wavelength: 28.2, swing: 3.3, first: left}
+- {type: slalom, cycles: 2, wavelength: 24.6, swing: 2.5, first: left}
+- {type: arc, radius: 43.5, angle: 30.7}
+- {type: slalom, cycles: 2, wavelength: 23.2, swing: 2.8, first: left}
+- {type: arc, radius: 14.9, angle: 65.6}
+- {type: arc, radius: 21.0, angle: -77.5}
+- {type: arc, radius: 27.0, angle: -34.5}
+- {type: arc, radius: 14.1, angle: -88.0}
+- {type: straight, length: 30.3}
+- {type: arc, radius: 30.3, angle: 93.6}
+- {type: slalom, cycles: 2, wavelength: 25.2, swing: 2.5, first: left}
+- {type: straight, length: 55.0}
+obstacles: []

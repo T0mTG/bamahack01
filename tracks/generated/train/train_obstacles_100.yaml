@@ -1,0 +1,31 @@
+name: train_obstacles_100
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: slalom, cycles: 2, wavelength: 26.4, swing: 2.2, first: left}
+- {type: arc, radius: 9.4, angle: -174.1, width: 6.5}
+- {type: slalom, cycles: 1, wavelength: 28.0, swing: 3.3, first: right}
+- {type: slalom, cycles: 3, wavelength: 26.2, swing: 2.3, first: right}
+- {type: straight, length: 33.3}
+- {type: arc, radius: 13.6, angle: -84.4}
+- {type: arc, radius: 16.4, angle: 61.7}
+- {type: arc, radius: 12.2, angle: 73.1}
+- {type: straight, length: 36.1}
+- {type: arc, radius: 11.0, angle: -183.3, width: 6.5}
+- {type: arc, radius: 20.7, angle: 98.6}
+- {type: arc, radius: 20.7, angle: 103.8}
+- {type: arc, radius: 14.9, angle: -75.5}
+- {type: arc, radius: 11.0, angle: -150.6, width: 6.5}
+- {type: slalom, cycles: 3, wavelength: 23.7, swing: 2.7, first: left}
+- {type: slalom, cycles: 3, wavelength: 25.7, swing: 2.6, first: left}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 136.4, offset: 1.52, width: 1.86}
+- {s: 303.9, offset: -1.66, width: 1.57}
+- {s: 473.5, offset: 2.22, width: 1.39}
+- {s: 604.4, offset: 1.49, width: 1.91}

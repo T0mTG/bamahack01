@@ -1,0 +1,28 @@
+name: train_mixed_122
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: slalom, cycles: 2, wavelength: 25.0, swing: 2.2, first: right}
+- {type: slalom, cycles: 3, wavelength: 28.2, swing: 2.1, first: right}
+- {type: slalom, cycles: 1, wavelength: 26.3, swing: 3.1, first: right}
+- {type: arc, radius: 13.4, angle: 110.6}
+- {type: arc, radius: 17.8, angle: -66.1}
+- {type: straight, length: 32.3}
+- {type: arc, radius: 21.0, angle: 77.5}
+- {type: slalom, cycles: 3, wavelength: 28.6, swing: 2.0, first: right}
+- {type: slalom, cycles: 2, wavelength: 26.2, swing: 2.4, first: right}
+- {type: arc, radius: 32.7, angle: 53.1}
+- {type: arc, radius: 32.5, angle: -32.0}
+- {type: slalom, cycles: 2, wavelength: 24.7, swing: 2.2, first: left}
+- {type: arc, radius: 13.6, angle: 108.9}
+- {type: straight, length: 21.3}
+- {type: straight, length: 36.1}
+- {type: straight, length: 55.0}
+obstacles:
+- {s: 164.0, offset: -1.49, width: 1.92}
+- {s: 477.1, offset: 1.52, width: 1.86}

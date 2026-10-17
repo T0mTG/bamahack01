@@ -1,0 +1,17 @@
+# Straights broken by medium corners. The car should accelerate on the way out and
+# brake on the way in, without a hairpin so tight that steering is the whole problem.
+name: accel_straights
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+  - {type: straight, length: 70}
+  - {type: arc, radius: 25, angle: 70}
+  - {type: straight, length: 90}
+  - {type: arc, radius: 22, angle: -80}
+  - {type: straight, length: 100}
+  - {type: arc, radius: 18, angle: 90, width: 6.0}
+  - {type: straight, length: 70}

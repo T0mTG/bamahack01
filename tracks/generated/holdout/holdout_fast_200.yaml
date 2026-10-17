@@ -1,0 +1,27 @@
+name: holdout_fast_200
+closed: false
+width: 5.5
+cone_spacing: 5.0
+start_offset: 8.0
+finish_runoff: 40.0
+origin: [0.0, 0.0, 0.0]
+segments:
+- {type: straight, length: 30.0}
+- {type: slalom, cycles: 3, wavelength: 22.7, swing: 2.9, first: left}
+- {type: arc, radius: 17.9, angle: -90.7}
+- {type: arc, radius: 14.5, angle: 80.7}
+- {type: arc, radius: 14.7, angle: 118.7}
+- {type: arc, radius: 40.0, angle: 51.2}
+- {type: slalom, cycles: 1, wavelength: 32.7, swing: 2.8, first: right}
+- {type: arc, radius: 26.6, angle: -77.0}
+- {type: straight, length: 15.7}
+- {type: straight, length: 43.9}
+- {type: arc, radius: 42.0, angle: 73.4}
+- {type: arc, radius: 43.2, angle: 84.8}
+- {type: arc, radius: 36.9, angle: 72.9}
+- {type: arc, radius: 21.1, angle: -101.3}
+- {type: straight, length: 24.1}
+- {type: straight, length: 12.6}
+- {type: straight, length: 28.3}
+- {type: straight, length: 55.0}
+obstacles: []
